@@ -1,0 +1,52 @@
+# 针对部分网站显示IP归属地的分流规则
+# anti-ip-attribution surge.list v0.3.0 e57776ed2c522cff25b97ff10976af8b9f26515a
+# https://github.com/lwd-temp/anti-ip-attribution
+# Surge分流规则
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN,api.bilibili.com
+DOMAIN,api.bilibili.tv
+DOMAIN,app.bilibili.com
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN,api.live.bilibili.com
+DOMAIN,api.vc.bilibili.com
+DOMAIN,passport.bilibili.com
+DOMAIN,live-trace.bilibili.com
+DOMAIN,message.bilibili.com
+DOMAIN,cm.bilibili.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,im9.com
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,biligame.com
+IP-CIDR,203.107.1.0/24,REJECT
+DOMAIN,tieba.baidu.com
+DOMAIN,tbmsg.baidu.com
+DOMAIN,tb5.bdstatic.com
+DOMAIN,fclog.baidu.com
+DOMAIN,gsp0.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,www.baidu.com
+DOMAIN,tiebac.baidu.com
+IP-CIDR,180.76.76.0/24
+DOMAIN,httpsdns.baidu.com
+DOMAIN,c.tieba.baidu.com
+DOMAIN,httpdns.baidu.com
+DOMAIN,httpdns.baidubce.com
+DOMAIN-KEYWORD,core-c-lq
+DOMAIN-KEYWORD,core-lq
+DOMAIN-KEYWORD,normal-c-lq
+DOMAIN-KEYWORD,normal-lq
+DOMAIN-KEYWORD,search-quic-lq
+DOMAIN-KEYWORD,search-lq
+DOMAIN-SUFFIX,zijieapi.com,DIRECT
+DOMAIN-SUFFIX,ecombdapi.com,DIRECT
+DOMAIN-KEYWORD,-normal-hl
+DOMAIN-KEYWORD,-normal-c-hl
+DOMAIN-KEYWORD,-core-c-hl
+DOMAIN-KEYWORD,-normal-lf
+DOMAIN-KEYWORD,-normal-c-lf
+DOMAIN-KEYWORD,-core-c-lf
+DOMAIN,sso.douyin.com
+DOMAIN,www.douyin.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN,api.coolapk.com
+DOMAIN,ngabbs.com
